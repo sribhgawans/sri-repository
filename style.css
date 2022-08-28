@@ -1,0 +1,23 @@
+/* this is only for h1 tag inside the HTML */
+/* h1 {
+    color: red;
+} */
+
+
+
+
+/* This is child selector(>) use only for inside the div tag, also we call use space (  ) replace of child selector*/
+/* div > h1 {
+    color: red;
+} */
+
+
+
+/* This is Adjecent sibling selector(+) this will imedeat after the first sibling i.e here h1 + p the color will be p*/
+h1 + p {
+    color: red;
+}
+
+.firstcolumn {
+    color: green;
+}
